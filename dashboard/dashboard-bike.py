@@ -66,7 +66,7 @@ def create_rfm_df(df):
 
 
 # Load cleaned data
-cleaned_df = pd.read_csv("cleaned_bikesharing_hour.csv")
+cleaned_df = pd.read_csv("https://github.com/melyavy/bike-sharing/raw/main/dashboard/cleaned_bikesharing_hour.csv")
 
 datetime_columns = ["date"]
 cleaned_df.sort_values(by="date", inplace=True)
